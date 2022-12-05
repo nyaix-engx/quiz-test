@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  .checkmark_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .analyis_wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    .analysis_row {
+      display: flex;
+      column-gap: 25px;
+      .flexIt {
+        flex: 1;
+      }
+    }
+  }
+}
